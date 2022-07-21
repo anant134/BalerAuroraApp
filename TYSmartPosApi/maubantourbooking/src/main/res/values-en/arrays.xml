@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="inter" id="0">
+        <item>POS Basic Operation</item>
+        <item>Card Reader</item>
+        <item>EMV Module</item>
+        <item>PinPad</item>
+        <item>Printer</item>
+        <item>Scanner</item>
+        <item>LED</item>
+        <item>Beeper</item>
+    </string-array>
+
+    <string-array name="pos_terminal" id="1">
+        <item>getSN</item>
+        <item>getPN</item>
+        <item>getKSN</item>
+        <item>getDeviceVersion</item>
+        <item>getDeviceInfo</item>
+        <item>getMerchantAndTerminalNo</item>
+        <item>updateMerchantAndTerminalNo</item>
+        <item>getBatchAndFlowNo</item>
+        <item>updateBatchAndFlowNo</item>
+        <item>installApp</item>
+        <item>uninstallApp</item>
+        <item>upgradeDevice</item>
+        <item>setSystemClock</item>
+        <item>reboot</item>
+        <item>setAPN</item>
+        <item>writeCustomData</item>
+        <item>readCustomData</item>
+    </string-array>
+
+    <string-array name="read_card" id="2">
+        <item>setReadCardConfig</item>
+        <item>readCard</item>
+        <item>tradeResponse</item>
+        <item>cancelReadCard</item>
+        <item>startSearchCard</item>
+        <item>stopSearchCard</item>
+        <item>getMagCardData</item>
+        <item>powerOn</item>
+        <item>powerOff</item>
+        <item>active</item>
+        <item>halt</item>
+        <item>isCardExists</item>
+        <item>transmitIC</item>
+        <item>transmitRF</item>
+        <item>openPSAMCard</item>
+        <item>closePSAMCard</item>
+        <item>transmitPSAM</item>
+        <item>verifyKeyA</item>
+        <item>verifyKeyB</item>
+        <item>readBlock</item>
+        <item>writeBlock</item>
+        <item>readValue</item>
+        <item>writeValue</item>
+        <item>increaseValue</item>
+        <item>decreaseValue</item>
+        <item>readMifareUltralightCard</item>
+        <item>writeMifareUltralightCard</item>
+    </string-array>
+
+    <string-array name="emv" id="3">
+        <item>setTermConfig</item>
+        <item>getTermConfig</item>
+        <item>clearAID</item>
+        <item>updateAID</item>
+        <item>getAID</item>
+        <item>clearCAPK</item>
+        <item>updateCAPK</item>
+        <item>getCAPK</item>
+        <item>setTlv</item>
+        <item>getTlv</item>
+        <item>getTlvList</item>
+        <item>emvProcess</item>
+        <item>queryECBalance</item>
+        <item>getEmvCardLog</item>
+        <item>getTlvEncrypted</item>
+        <item>getTlvValueEncrypted</item>
+        <item>getTlvListEncrypted</item>
+    </string-array>
+
+    <string-array name="pinpad" id="4">
+        <item>updateMainKey</item>
+        <item>updateWorkKey</item>
+        <item>updateTransKey</item>
+        <item>calculateMac</item>
+        <item>getRandom</item>
+        <item>setPinPadConfig</item>
+        <item>startPinPad</item>
+        <item>cancelPinPad</item>
+        <item>changeKeyIndex</item>
+        <item>encrypt/Decrypt</item>
+        <item>encryptKSN</item>
+        <item>DUKPTGetRandom</item>
+        <item>DUKPTIdentifyData</item>
+        <item>DUKPTIncreaceKSN</item>
+        <item>DUKPTUpdateKSN</item>
+        <item>DUKPTGetKSN</item>
+        <item>DUKPTUpdateIPEK</item>
+    </string-array>
+
+    <string-array name="printer" id="5">
+        <item>initPrinter</item>
+        <item>setPrintParameters</item>
+        <item>setYSpace</item>
+        <item>printText</item>
+        <item>feedPaper</item>
+        <item>printBitmap</item>
+        <item>printBarcode</item>
+        <item>printTemplate</item>
+        <item>printCustomTemplate</item>
+        <item>getStatus</item>
+        <item>appendText</item>
+        <item>appendBitmap</item>
+        <item>appendBarcode</item>
+        <item>appendScript</item>
+        <item>startPrint</item>
+        <item>releasePrinter</item>
+    </string-array>
+
+    <string-array name="scanner" id="6">
+        <item>setScanConfig</item>
+        <item>startScan</item>
+        <item>stopScan</item>
+    </string-array>
+
+    <string-array name="led" id="6">
+        <item>Red light on</item>
+        <item>Red light off</item>
+        <item>Green light on</item>
+        <item>Green light off</item>
+        <item>Yellow light on</item>
+        <item>Yellow light off</item>
+        <item>Blue light on</item>
+        <item>Blue light off</item>
+        <item>All the lights on</item>
+        <item>All the lights off</item>
+    </string-array>
+
+    <string-array name="beeper" id="7">
+        <item>Beep</item>
+        <item>Successful beep</item>
+        <item>Failure beep</item>
+        <item>Intermittent buzzer</item>
+        <item>Serious error beep</item>
+    </string-array>
+</resources>

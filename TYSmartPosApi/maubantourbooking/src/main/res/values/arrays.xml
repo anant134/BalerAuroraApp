@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="inter" id="0">
+        <item>POS基础操作</item>
+        <item>读卡模块</item>
+        <item>EMV模块</item>
+        <item>PinPad</item>
+        <item>打印机</item>
+        <item>扫码</item>
+        <item>LED</item>
+        <item>蜂鸣器</item>
+    </string-array>
+
+    <string-array name="pos_terminal" id="1">
+        <item>获取SN</item>
+        <item>获取PN</item>
+        <item>获取KSN</item>
+        <item>获取版本信息</item>
+        <item>获取设备信息</item>
+        <item>获取商户号和终端号</item>
+        <item>更新商户号和终端号</item>
+        <item>获取批次号和流水号</item>
+        <item>更新批次号和流水号</item>
+        <item>安装app</item>
+        <item>卸载app</item>
+        <item>升级固件</item>
+        <item>设置系统时间</item>
+        <item>重启设备</item>
+        <item>设置APN</item>
+        <item>保存自定义数据</item>
+        <item>读取自定义数据</item>
+        <item>透传</item>
+    </string-array>
+
+    <string-array name="read_card" id="2">
+        <item>设置读卡参数</item>
+        <item>复合刷卡</item>
+        <item>交易响应</item>
+        <item>取消刷卡</item>
+        <item>开始寻卡</item>
+        <item>停止寻卡</item>
+        <item>获取磁条卡数据</item>
+        <item>卡片上电</item>
+        <item>卡片下电</item>
+        <item>卡片激活</item>
+        <item>卡片挂起</item>
+        <item>IC卡是否在位</item>
+        <item>IC卡透传</item>
+        <item>非接卡透传</item>
+        <item>开PSAM卡通道</item>
+        <item>关PSAM卡通道</item>
+        <item>PSAM卡透传</item>
+        <item>验证A区</item>
+        <item>验证B区</item>
+        <item>读区块数据</item>
+        <item>写区块数据</item>
+        <item>读钱包数据</item>
+        <item>写钱包数据</item>
+        <item>加值</item>
+        <item>减值</item>
+        <item>读MifareUltralight卡</item>
+        <item>写MifareUltralight卡</item>
+    </string-array>
+
+    <string-array name="emv" id="3">
+        <item>设置终端参数</item>
+        <item>读取终端参数</item>
+        <item>清除AID</item>
+        <item>更新AID</item>
+        <item>读取AID</item>
+        <item>清除CAPK</item>
+        <item>更新CAPK</item>
+        <item>读取CAPK</item>
+        <item>设置TLV</item>
+        <item>获取TLV数据</item>
+        <item>获取TLVS数据</item>
+        <item>emv流程处理</item>
+        <item>查询电子现金余额</item>
+        <item>查询卡片交易日志</item>
+        <item>获取TLV加密数据</item>
+        <item>获取Value加密数据</item>
+        <item>获取TLVS加密数据</item>
+    </string-array>
+
+    <string-array name="pinpad" id="4">
+        <item>更新主密钥</item>
+        <item>更新工作密钥</item>
+        <item>更新传输密钥</item>
+        <item>计算MAC</item>
+        <item>获取随机数</item>
+        <item>初始化密码键盘参数</item>
+        <item>启动密码键盘</item>
+        <item>取消密码键盘</item>
+        <item>切换密钥组</item>
+        <item>数据加解密</item>
+        <item>终端银联序列号加密</item>
+        <item>DUKPT获取8字节随机数</item>
+        <item>DUKPT数据认证</item>
+        <item>KSN自增</item>
+        <item>KSN明文更新</item>
+        <item>读取KSN</item>
+        <item>密文更新IPEK</item>
+    </string-array>
+
+    <string-array name="printer" id="5">
+        <item>初始化打印机</item>
+        <item>设置打印参数</item>
+        <item>设置行间距</item>
+        <item>打印字符串</item>
+        <item>打印机走纸</item>
+        <item>打印图片</item>
+        <item>打印二维码</item>
+        <item>打印模板</item>
+        <item>打印自定义模板</item>
+        <item>获取打印机状态</item>
+        <item>设置打印字符串</item>
+        <item>设置打印图片</item>
+        <item>设置打印二维码</item>
+        <item>设置打印脚本</item>
+        <item>开始打印</item>
+        <item>释放打印机</item>
+    </string-array>
+
+    <string-array name="scanner" id="6">
+        <item>设置扫码参数</item>
+        <item>启动扫码</item>
+        <item>取消扫码</item>
+    </string-array>
+
+    <string-array name="led" id="6">
+        <item>红灯亮</item>
+        <item>红灯暗</item>
+        <item>绿灯亮</item>
+        <item>绿灯暗</item>
+        <item>黄灯亮</item>
+        <item>黄灯暗</item>
+        <item>蓝灯亮</item>
+        <item>蓝灯暗</item>
+        <item>全亮</item>
+        <item>全暗</item>
+    </string-array>
+
+    <string-array name="beeper" id="7">
+        <item>蜂鸣一声</item>
+        <item>成功蜂鸣</item>
+        <item>失败蜂鸣</item>
+        <item>间歇蜂鸣</item>
+        <item>严重错误蜂鸣</item>
+    </string-array>
+</resources>
