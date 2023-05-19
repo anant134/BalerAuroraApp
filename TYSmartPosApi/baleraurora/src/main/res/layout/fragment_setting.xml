@@ -1,0 +1,90 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.smartech.tour.baleraurora.SettingFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ImageView
+            android:id="@+id/img_settinglogo"
+            android:layout_width="140dp"
+            android:layout_height="100dp"
+            android:src="@drawable/stlogo"
+            tools:ignore="MissingConstraints" />
+
+        <ImageView
+            android:padding="20dp"
+            android:id="@+id/img_settinghome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_home_36"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="140dp"
+            android:visibility="gone"
+            android:layout_height="19dp"
+            android:layout_marginTop="44dp"
+            android:foregroundGravity="top"
+            android:paddingLeft="0dp"
+            android:text="Assign Port to Device"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.095"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/img_settinglogo" />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/cardView"
+            android:layout_width="300dp"
+            android:visibility="gone"
+            android:layout_height="50dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView3"
+            tools:ignore="MissingConstraints">
+
+            <Spinner
+                android:id="@+id/ddl_port"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="InvalidId">
+
+            </Spinner>
+        </androidx.cardview.widget.CardView>
+
+        <CheckBox
+            android:id="@+id/chk_connecttestserver"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Connect test Server"
+            app:layout_constraintTop_toBottomOf="@+id/cardView"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="25dp" />
+
+        <Button
+            android:id="@+id/btn_savesetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="Save"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/buttonstyle"
+            app:layout_constraintStart_toStartOf="@+id/chk_connecttestserver"
+            app:layout_constraintTop_toBottomOf="@+id/chk_connecttestserver" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

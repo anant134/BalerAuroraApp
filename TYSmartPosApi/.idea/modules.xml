@@ -3,7 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/TYSmartPosApi.iml" filepath="$PROJECT_DIR$/.idea/modules/TYSmartPosApi.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/maubantourbooking/TYSmartPosApi.MaubanTourbooking.iml" filepath="$PROJECT_DIR$/.idea/modules/maubantourbooking/TYSmartPosApi.MaubanTourbooking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/baleraurora/TYSmartPosApi.baleraurora.iml" filepath="$PROJECT_DIR$/.idea/modules/baleraurora/TYSmartPosApi.baleraurora.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/baleraurora/TYSmartPosApi.baleraurora.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/baleraurora/TYSmartPosApi.baleraurora.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/baleraurora/TYSmartPosApi.baleraurora.main.iml" filepath="$PROJECT_DIR$/.idea/modules/baleraurora/TYSmartPosApi.baleraurora.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/baleraurora/TYSmartPosApi.baleraurora.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/baleraurora/TYSmartPosApi.baleraurora.unitTest.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/tysmartposlib/TYSmartPosApi.tysmartposlib.iml" filepath="$PROJECT_DIR$/.idea/modules/tysmartposlib/TYSmartPosApi.tysmartposlib.iml" />
     </modules>
   </component>
